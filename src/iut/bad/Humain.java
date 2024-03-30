@@ -19,4 +19,12 @@ public String toString() {
 	return "Humain [nom=" + nom + ", prenom=" + prenom + ", age=" + age + "]";
 } 
 
+public void manger() {
+	
+}
+
+public void boire () {
+	
+}
+
 }
