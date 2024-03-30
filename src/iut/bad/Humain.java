@@ -10,6 +10,13 @@ public class Humain {
 
 public void Detail() {
 	System.out.println ("nom: "+nom+ "prenom: "+prenom+ "age: "+age);
+}
+
+
+
+@Override
+public String toString() {
+	return "Humain [nom=" + nom + ", prenom=" + prenom + ", age=" + age + "]";
 } 
 
 }
