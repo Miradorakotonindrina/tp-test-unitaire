@@ -1,11 +1,14 @@
 package iut.bad;
 
 public class Femme extends Humain{
-public Femme(String nom, String prenom, String age) {
+public Femme() {
 		super();
-		this.nom = nom;
-		this.prenom = prenom;
-		this.age = age;
+		
 	}
 
+public static void main( String args[]) {
+	Homme lehilahy= new Homme();
+	Femme vehivavy = new Femme();
+	lehilahy.ami(vehivavy);
+}
 }
